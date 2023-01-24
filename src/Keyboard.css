@@ -1,0 +1,19 @@
+.btn {
+    width: 100%;
+    border: 2px solid black;
+    background: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    padding: 0.2rem;
+    
+}
+
+.btn:hover:not(:disabled) {
+   background-color: hsl(200, 100%, 50%);
+}
+.btn.active {
+    background-color: hsl(200, 100%, 50%)
+}
+.btn.inactive {
+    opacity: 30%;
+}
